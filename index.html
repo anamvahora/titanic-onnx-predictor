@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Predictor</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+
+<h2>Titanic Survival Predictor</h2>
+
+<input id="f1" placeholder="Pclass">
+<input id="f2" placeholder="Sex (0/1)">
+<input id="f3" placeholder="Age">
+<input id="f4" placeholder="SibSp">
+<input id="f5" placeholder="Parch">
+<input id="f6" placeholder="Fare">
+<input id="f7" placeholder="Embarked">
+
+<br><br>
+<button onclick="predict()">Predict</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
